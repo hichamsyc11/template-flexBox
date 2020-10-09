@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.all{
+    width: 100%;
+    height: auto;
+    color: #666666;
+    background-color: #f4f4f4;
+}
+/*----------- first section------------*/
+.all .parent{
+    width: 90% ;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.all .child{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-color: #9a3334;
+    color: #fff;
+}
+.all .child h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+.all .child img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.all .child p{
+    margin-left :25px;
+    line-height: 1.4;
+}
+.all .childa{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 400px;
+    background-color: #fff;
+}
+.all .a p{
+    font-size: 23px;
+    line-height: 1.8;
+    font-style: italic;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/*-----    b   -----*/
+.all .b{
+    padding: 5% 8%;
+}
+.all .b h3{
+    color: #9a3334;
+    font-size: 28px;
+    font-weight: 500;
+}
+.all .b p{
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: bold;
+    padding: 15px 0 20px;
+}
+.all .b button{
+width: 200px;
+height: 50px;
+background-color: #9a3334;
+outline: none;
+border: none;
+float: right;
+margin-top: 15px;
+}
+.all .b button:hover{
+    background-color: #EC4949;
+}
+.all .b a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+.all .mag img{
+    width: 100%;
+    height: 100%;
+}
+/*-----   c   -----*/
+.all .c{
+    padding: 5% 8%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.all .c h3{
+    color: #666666;
+    font-size: 30px;
+    font-weight: 600;
+}
+.all .c p{
+    font-size: 20px;
+    line-height: 1.3;
+  
+    padding: 15px 0 20px;
+}
+.all .c .link{
+ color: #007bff;
+ text-decoration: none;
+}
+.all .c button{
+width: 200px;
+height: 50px;
+background-color: #9a3334;
+outline: none;
+border: none;
+margin-top: 15px;
+}
+.all .c button:hover{
+    background-color: #EC4949;
+}
+.all .c a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+/*---------------second section-----------------*/
+.sectionII{
+    padding: 40px 0;
+    width: 90%;
+    margin: 5px auto 20px auto; 
+}
+.sectionII .par{
+    display: flex;
+    background-color: white;
+}
+.sectionII .left{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 5% ;
+}
+.sectionII .left h1{
+    color: #9a3334;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+.sectionII .par .left p{
+    font-size: 20px;
+    line-height: 1.8;
+    padding-top: 35px;
+
+}
+.sectionII .par .left button{
+    width: 200px;
+    height: 50px;
+    background-color: #9a3334;
+    outline: none;
+    border: none;
+    align-self: flex-end;
+    margin-top: 15px;
+}
+.sectionII .par .left button:hover{
+        background-color: #EC4949;
+}
+.sectionII .par .left a{
+        text-decoration: none;
+        font-size: 20px;
+        color: #fff;
+}
+.sectionII .right{
+    width: 30%;
+    height: auto;
+    display: flex;
+    
+}
+.sectionII .right img{
+    width: 100%;
+    height: auto;
+}
+/*----------------third part----------------*/
+.container{
+    width: 90%;
+    margin: 5px auto 20px auto; 
+    background-color: white; 
+}
+.container .part{
+    display: flex;
+    
+}
+.container .part .left{
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+.container .part .left img{
+    width: 100%;
+    height: auto;
+}
+.container .part .right{
+    margin: 5% 0 5% 0;
+    width: 75%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+/*---- col1-----*/
+.container .part .right .col1,.col2{
+    width: 40%;
+    border: 1px solid #009999;
+    display: flex;
+    flex-flow: column wrap;
+
+}
+.container .part .right .first{
+    width: 100%;
+    height: 90px;
+    background-color: #009999;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.container .part .right .first h3{
+    margin-top: 5px;
+    font-size: 23px;
+    font-weight: 500;
+}
+.container .part .right .first p{
+    font-size: 15px;
+    padding: 10px 0 10px 0 ;
+    font-weight: 500;
+}
+.container .part .right .second {
+    text-align: center;
+   
+}
+.container .part .right .second ul{
+    padding: 25px;
+}
+.container .part .right .second ul li{
+    font-size: 17px;
+    list-style-type: none;
+    line-height: 1.8;
+    margin: 0 5px 10px ;
+}
+.container .part .right button{
+    width: 150px;
+    height: 50px;
+    background-color: #009999;
+    outline: none;
+    border: none;
+    align-self: flex-end;
+    margin: 15px;
+}
+.container .part .right button:hover{
+    background-color: #24d4d4;
+}
+.container .part .right a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+/*---------form--------*/
+.form{
+    width: 90%;
+    margin: 5px auto 20px auto; 
+    background-color: #f4f4f4; 
+}
+.form .head{
+    width: 100%;
+    height: 170px;
+    background-color: #9a3334;
+}
+.form .head h1{
+    color: #fff;
+    font-size: 25px;
+    padding: 6% 15%  0;
+    
+}
+.form form{
+    width: 70%;
+    background-color: #fff;
+    height: auto;
+    margin: -6%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.form .form-one{
+    display: flex;
+    padding: 10%;
+}
+.form .form-one .left{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+}
+.form .form-one .left input{
+    width: 80%;
+    margin-bottom: 15px;
+    padding: 13px;
+    font-size: 15px;
+}
+.form .form-one .left .one,.two {
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 13px;
+    font-size: 15px;
+    color: #666666;
+}
+.form .form-one .right{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+}
+.form .form-one .right .op{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.form .form-one .right .op label,input{
+    font-size: 20px;
+}
+.form .form-one .right textarea{
+    height: 170px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 10px;
+}
+.form .btn{
+    display: flex;
+    justify-content: center;
+}
+.form .btn  button{
+    width: 200px;
+    height: 50px;
+    background-color: #9a3334;
+    outline: none;
+    border: none;
+    margin-bottom: 10%;
+}
+.form .btn  button:hover{
+    background-color: #EC4949;
+}
+.form .btn a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+/*--------------last part-----------*/
+.foot{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #666666; 
+    height: auto;
+}
+.foot .heading{
+    display: flex;
+    color: #fff;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+ 
+}
+.foot .heading .left,.right{
+    margin-top: 7%;
+    font-size: 17px;
+    line-height: 1.8;
+    padding-bottom: 30px;
+}
+.foot .heading h2{
+    font-weight: 500;
+}
+.foot .heading ul li{
+    list-style-type: none;
+    
+}
+/*------footer-------*/
+.footer{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f4f4f4;
+    height: 100px;
+}
+.footer p{
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    padding-top: 40px;
+}
